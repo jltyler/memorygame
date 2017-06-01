@@ -32,6 +32,12 @@ nav a {
   text-decoration: none;
   font-family: Arial;
   font-size: 18px;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  color: #ccf;
+  border-bottom-color: #ccf;
 }
 
 main {
@@ -41,4 +47,40 @@ main {
 
 img {
   margin: 40px 8px 0;
+}
+
+.playingfield {
+  padding-bottom: 32px;
+}
+
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0d2c40;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+.copyright {
+  float: left;
+}
+
+.message {
+  float: right;
+}
+
+.name {
+  color: #f15b31;
+  font-weight: 700;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
 }
