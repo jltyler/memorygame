@@ -47,6 +47,7 @@ function flipCard() {
   checkMatch();
 }
 
+// Create playing field and cards and attach events to them
 function createBoard() {
   var game = document.getElementById('game-board');
   for (var i = 0; i < cards.length; i++) {
