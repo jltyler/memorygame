@@ -5,10 +5,18 @@ body {
 
 h1 {
   font-family: "Raleway", sans-serif;
+  font-size: 24px;
   font-weight: 400;
   margin: 0;
   text-transform: uppercase;
   color: #fff;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 10px 0;
 }
 
 p {
@@ -45,6 +53,10 @@ main {
   margin: 35px auto;
 }
 
+main p {
+  padding-bottom: 24px;
+}
+
 img {
   margin: 40px 8px 0;
 }
@@ -55,7 +67,7 @@ img {
 
 footer {
   text-transform: uppercase;
-  padding: 0 20px;
+  padding: 10px 20px;
   background-color: #0d2c40;
   color: #fff;
   font-size: 14px;
@@ -78,7 +90,7 @@ footer {
 
 .info {
   height: 100px;
-  width: 100px;
+  width: 180px;
   margin: 10px auto;
   color: #0f0;
 }

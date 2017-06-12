@@ -32,9 +32,11 @@ function checkMatch() {
   if (cardsInPlay.length >= 2) {
     if (cardsInPlay[0].rank === cardsInPlay[1].rank) {
       info_text.textContent = 'You found a match!';
+      info_text.style.color = '#00ff00';
       // alert('You found a match!');
     } else {
-      info_text.textContent = 'You found a match!';
+      info_text.textContent = 'Sorry, try again.';
+      info_text.style.color = '#ff0000';
       // alert("Sorry, try again.");
     }
     cardsInPlay = []; // Clear the cardsInPlay array
