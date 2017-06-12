@@ -76,6 +76,13 @@ footer {
   font-weight: 700;
 }
 
+.info {
+  height: 100px;
+  width: 100px;
+  margin: 10px auto;
+  color: #0f0;
+}
+
 .clearfix:after {
 visibility: hidden;
 display: block;

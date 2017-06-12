@@ -25,13 +25,17 @@ cards = [
 ];
 cardsInPlay = [];
 
+var info_text = document.getElementById('info-label');
+
 // Check if cardsInPlay contains a match
 function checkMatch() {
   if (cardsInPlay.length >= 2) {
     if (cardsInPlay[0].rank === cardsInPlay[1].rank) {
-      alert('You found a match!');
+      info_text.textContent = 'You found a match!';
+      // alert('You found a match!');
     } else {
-      alert("Sorry, try again.");
+      info_text.textContent = 'You found a match!';
+      // alert("Sorry, try again.");
     }
     cardsInPlay = []; // Clear the cardsInPlay array
   }
